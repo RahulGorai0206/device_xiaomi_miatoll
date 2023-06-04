@@ -70,14 +70,14 @@ void load_device_properties() {
     if (hwname == "curtana") {
         if (region == "Global_TWO") {
             set_device_props(
-                    "Redmi/curtana_global/curtana:12/RKQ1.211019.001/V13.0.2.0.SJWMIXM:user/release-keys",
-                    "curtana_global-user 12 RKQ1.211019.001 V13.0.2.0.SJWMIXM release-keys",
+                    "Redmi/curtana_global/curtana:12/RKQ1.211019.001/V14.0.3.0.SJWMIXM:user/release-keys",
+                    "curtana_global-user 12 RKQ1.211019.001 V14.0.3.0.SJWMIXM release-keys",
                     "Redmi", "curtana", "Redmi Note 9S");
             property_override("ro.product.mod_device", "curtana_global");
         } else if (region == "Global_PA") {
             set_device_props(
-                    "Redmi/curtana_global/curtana:12/RKQ1.211019.001/V13.0.2.0.SJWMIXM:user/release-keys",
-                    "curtana_global-user 12 RKQ1.211019.001 V13.0.2.0.SJWMIXM release-keys",
+                    "Redmi/curtana_global/curtana:12/RKQ1.211019.001/V14.0.3.0.SJWMIXM:user/release-keys",
+                    "curtana_global-user 12 RKQ1.211019.001 V14.0.3.0.SJWMIXM release-keys",
                     "Redmi", "curtana", "Redmi Note 9S");
             property_override("ro.product.mod_device", "curtana_global");
         } else if (region == "India") {
@@ -88,8 +88,8 @@ void load_device_properties() {
             property_override("ro.product.mod_device", "curtana_in_global");
         } else if (region == "Japan") {
             set_device_props(
-                    "Redmi/curtana_global/curtana:12/RKQ1.211019.001/V13.0.2.0.SJWMIXM:user/release-keys",
-                    "curtana_global-user 12 RKQ1.211019.001 V13.0.2.0.SJWMIXM release-keys",
+                    "Redmi/curtana_global/curtana:12/RKQ1.211019.001/V14.0.3.0.SJWMIXM:user/release-keys",
+                    "curtana_global-user 12 RKQ1.211019.001 V14.0.3.0.SJWMIXM release-keys",
                     "Redmi", "curtana", "Redmi Note 9S");
             property_override("ro.product.mod_device", "curtana_global");
         }
@@ -107,8 +107,8 @@ void load_device_properties() {
         property_override("ro.product.mod_device", "gram_in_global");
     } else if (hwname == "joyeuse") {
         set_device_props(
-                "Redmi/joyeuse_global/joyeuse:12/RKQ1.211019.001/V13.0.1.0.SJZMIXM:user/release-keys",
-                "joyeuse_global-user 12 RKQ1.211019.001 V13.0.1.0.SJZMIXM release-keys",
+                "Redmi/joyeuse_global/joyeuse:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys",
+                "joyeuse_global-user 12 RKQ1.211019.001 V14.0.3.0.SJZMIXM release-keys",
                 "Redmi", "joyeuse", "Redmi Note 9 Pro");
         property_override("ro.product.mod_device", "joyeuse_global");
     }
