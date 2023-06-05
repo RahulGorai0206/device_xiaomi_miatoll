@@ -38,4 +38,4 @@ IS_PHONE := true
 
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
-TARGET_SHIPS_GALLERY := true
+TARGET_SHIPS_GALLERY := false
