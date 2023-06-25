@@ -36,3 +36,6 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 EXTRA_UDFPS_ANIMATIONS := false
 IS_PHONE := true
 
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+TARGET_SHIPS_GALLERY := true
