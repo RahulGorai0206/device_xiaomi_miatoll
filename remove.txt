@@ -1,0 +1,4 @@
+kernel/xiaomi
+vendor/xiaomi
+device/xiaomi
+prebuilts/clang/host/linux-x86/clang-r487747
