@@ -5,9 +5,9 @@
 #
 
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_miatoll
+PRODUCT_NAME := ancient_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Miatoll
@@ -25,8 +25,12 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_ENABLE_BLUR := true
-TARGET_USES_AOSP_RECOVERY := true
-CUSTOM_BUILD_TYPE := EXCLUSIVE-edition
+
+# Official
+ANCIENT_OFFICIAL := true
+ANCIENT_GAPPS := true
+TARGET_USES_BLUR := false
+PIXEL_STUFF := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="miatoll_global-user 12 RKQ1.211019.001 V13.0.2.0.SJWMIXM release-keys"
